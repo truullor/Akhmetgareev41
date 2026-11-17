@@ -1,0 +1,35 @@
+# Сборка
+bin/
+obj/
+
+# Visual Studio — локальное состояние
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet (восстанавливается из packages.config)
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Тесты
+TestResults/
+[Tt]est[Rr]esult*/
+
+# Логи и временные файлы
+*.log
+*.cache
+*.pidb
+*.svclog
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Конспекты — раскомментировать, если не нужны в репозитории
+Подготовка/
